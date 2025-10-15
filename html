@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akierazia</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- Google Fonts - Inter for modern typography (replacing Nunito for consistency with general guidelines) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section (Sidebar Navigation) -->
+    <header>
+        <div class="user">
+            <!-- Profile Image Placeholder -->
+            <img src="aki1.jpg" alt="Akierazia">
+            <h3 class="name">Akierazia Jayme Vidal</h3>
+            <p class="post">Portfolio</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="btn">Home</a></li>
+                <li><a href="#about" class="btn" >About Me</a></li>
+                <li><a href="#shots"class="btn">Pics</a></li> <!-- Changed from #FavoriteFood -->
+                <li><a href="#contact"class="btn">Contact me!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu Toggle Button -->
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- Main Content Sections -->
+    <main>
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <h3>Good day everyone!</h3>
+            <h1>I'm <span>Akierazia Jayme Vidal </span></h1>
+            <p></p>
+            <a href="#about" class="btn">About Me <i class="fas fa-user"></i></a>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about" id="about">
+            <h1 class="heading"><span>About</span> Me</h1>
+            <div class="row">
+                <div class="info">
+                    <h3><span>Name :</span> Akierazia Jayme Vidal</h3>
+                    <h3><span>Age :</span> 16</h3>
+                    <h3><span>Address :</span>Tibanban, GOV.GEN Davao Oriental </h3>
+                    <h3><span>School :</span>SIGABOY AGRICULTURAL VOCATIONAL HIGH SCHOOL </h3>
+                    <h3><span>Strand : TVL (I.C.T) </span> </h3> <!-- Placeholder for course -->
+                    <a href="#contact" class="btn">Contact <i class="fas fa-share-alt"></i></a> <!-- Changed button action and icon -->
+
+                </div>
+                <!-- Removed the duplicate image gallery section from here -->
+            </div>
+        </section>
+
+        <!-- Shots Section (Photography Portfolio) -->
+        <section class="shots" id="shots"> <!-- Changed ID from FavoriteFood -->
+            <h1 class="heading"><span>Pictures</span></h1>
+            <div class="box-container">
+                <!-- Placeholder images for various photography shots -->
+                <div class="box">
+                    <img src="aki2.jpg" alt="Photography">
+                </div>
+                <div class="box">
+                    <img src="aki3.jpg" alt="Photography">
+                </div>
+                <div class="box">
+                    <img src="aki4.jpg" alt="Photography">
+                </div>
+                <div class="box">
+                    <img src="aki5.jpg" alt="Photography">
+                </div>
+                <div class="box">
+                    <img src="aki6.jpg" alt="Photography">
+                </div>
+                <div class="box">
+                    <img src="aki7.jpg" alt="Photography">
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>Contact</span></h1>
+            <div class="row">
+                <div class="content">
+                    <div class="info">
+                        <h3><i class="fas fa-envelope"></i>vakierazia@gmail.com</h3>
+                        <h3><i class="fas fa-phone"></i>09484513637 </h3>
+                        <h3><i class="fas fa-map-marker-alt"></i> Davao Oriental</h3>
+                    </div>
+                    <h3 class="title">Follow me on IG @akierazia_15</h3>
+                </div>
+                <!-- Removed the form as per original design, focusing on direct contact info -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <a href="#home" class="top">
+        <i class="fas fa-arrow-up"></i> <!-- Replaced image with Font Awesome icon -->
+    </a>
+
+    <!-- jQuery and custom script (script.js is needed for mobile menu toggle) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script> <!-- Ensure this file exists and handles the menu toggle -->
+
+</body>
+</html>
